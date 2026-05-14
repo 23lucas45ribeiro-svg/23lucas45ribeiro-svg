@@ -65,20 +65,11 @@ Me chamo Lucas Ribeiro Gonçalves sou estudante do Instituto Federal do Pará (I
 
 ### 📊 Estatísticas
 
-<p>
-  <img 
-    align="left" 
-    alt="GitHub Stats" 
-    height="200" 
-    style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=23lucas45ribeiro-svg&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" 
-  />
+<div align="center">
+  <img src="https://raw.githubusercontent.com/23lucas45ribeiro-svg/23lucas45ribeiro-svg/stats-output/stats.svg" height="150" alt="stats graph"  />
+  <img src="https://raw.githubusercontent.com/23lucas45ribeiro-svg/23lucas45ribeiro-svg/languages-output/languages.svg" height="150" alt="languages graph"  />
+</div>
 
-<img 
-      align="left" 
-      alt="GitHub Stats" 
-      height="200" 
-      src="https://github-readme-stats.vercel.app/api?username=23lucas45ribeiro-svg&show=reviews,theme=tokyonight&include,discussions_started,discussions_answered,prs_merged,prs_merged_percentage" 
-  />
+###
 
 ---
