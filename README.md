@@ -1,5 +1,5 @@
 # Lucas-Ribeiro-Goncalves
-# 🧑🏽‍💻 Lucas Ribeiro Gonçalves
+# Lucas Ribeiro Gonçalves
 
 **`Desenvolvedor`**
 
