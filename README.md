@@ -1,5 +1,4 @@
 # Lucas-Ribeiro-Goncalves
-# Lucas Ribeiro Gonçalves
 
 **`Desenvolvedor`**
 
