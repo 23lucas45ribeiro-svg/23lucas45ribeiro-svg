@@ -60,16 +60,6 @@ Me chamo Lucas Ribeiro Gonçalves sou estudante do Instituto Federal do Pará (I
 />
 <br>
 <br>
-<br>
-
-<div align="center">
-  <img src="./general.svg" height="150" alt="stats graph"  />
-  <img src="./languages.svg" height="150" alt="languages graph"  />
-</div>
-
-
-<br>
-<br>
 
 
 ---
