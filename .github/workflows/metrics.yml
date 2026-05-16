@@ -8,15 +8,19 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Passo 1: gera o gráfico de estatísticas gerais
+      # Estatísticas gerais
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_general: yes
           filename: general.svg
           base: header, activity, community, repositories, metadata
+          config_theme: dark
+          config_icons: yes
+          plugin_general_base_indepth: yes
+          config_display: columns
 
-      # Passo 2: gera o gráfico de linguagens
+      # Linguagens
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
@@ -24,3 +28,24 @@ jobs:
           filename: languages.svg
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          config_theme: dark
+          config_icons: yes
+
+      # Sequência de commits (streak)
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_streak: yes
+          filename: streak.svg
+          config_theme: dark
+          config_icons: yes
+
+      # Estrelas
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugin_stars: yes
+          filename: stars.svg
+          config_theme: dark
+          config_icons: yes
