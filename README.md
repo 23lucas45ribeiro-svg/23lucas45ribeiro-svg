@@ -59,6 +59,12 @@ Me chamo Lucas Ribeiro Gonçalves sou estudante do Instituto Federal do Pará (I
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" 
 />
 
+<div align="center">
+  <img src="./general.svg" height="150" alt="stats graph"  />
+  <img src="./languages.svg" height="150" alt="languages graph"  />
+</div>
+
+
 <br>
 <br>
 
